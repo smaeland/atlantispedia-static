@@ -1,0 +1,25 @@
+DNS-pekere for atlantispedia.art
+
+ Vis avanserte innstillinger (SRV, TXT, TTL, etc.)
+
+	
+atlantispedia.art →  	185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+www.atlantispedia.art → smaeland.github.io 			
+.atlantispedia.art →  	
+
+sonefil:
+atlantispedia.art.	3600	IN	SOA	ns1.hyp.net. hostmaster.domeneshop.no. 1667416443 21600 3600 1209600 3600
+atlantispedia.art.	3600	IN	A	185.199.108.153
+atlantispedia.art.	3600	IN	A	185.199.109.153
+atlantispedia.art.	3600	IN	A	185.199.110.153
+atlantispedia.art.	3600	IN	A	185.199.111.153
+atlantispedia.art.	86400	IN	NS	ns1.hyp.net.
+atlantispedia.art.	86400	IN	NS	ns2.hyp.net.
+atlantispedia.art.	86400	IN	NS	ns3.hyp.net.
+www.atlantispedia.art.	3600	IN	CNAME	smaeland.github.io.
+atlantispedia.art.	3600	IN	SOA	ns1.hyp.net. hostmaster.domeneshop.no. 1667416443 21600 3600 1209600 3600
+;; WHEN: Wed Nov 16 19:11:27 CET 2022
+;; XFR size: 26 records (messages 1, bytes 1877)
